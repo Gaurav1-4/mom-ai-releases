@@ -4,7 +4,14 @@ Public installer catalog and release notes for MOM-AI. Application source is mai
 
 ## Current availability
 
-**There is no Windows-and-Mac production release yet.** The present candidate targets Apple silicon Macs. Windows and Intel Mac installers are not available. A draft release is preparation for review; its assets are not public downloads until that release is published.
+**MOM-AI 0.4.0 is a testing preview for Apple silicon Mac and Windows x64.**
+
+[Download both installers and SHA-256 checksums](https://github.com/Gaurav1-4/mom-ai-releases/releases/tag/v0.4.0).
+
+- Mac: `MOM-AI-0.4.0-arm64.dmg` — ad-hoc signed, not notarized.
+- Windows: `MOM-AI-0.4.0-win-x64.exe` — unsigned per-user installer.
+- Windows native installation, app/UI, reinstall/uninstall, private workspace permissions and full local Large v3 inference passed CI. The shared Linux recorder passed synthetic audio/video and automatic stopping checks.
+- Real Windows Google Meet/WSL2 end-to-end acceptance, long-session testing and commercial signing remain pending. Intel Mac and Windows ARM64 are not validated targets.
 
 Each published release will state its supported platform, preview/production status, signing/notarization status, prerequisites and known limitations. Do not assume a personal preview is a signed/notarized commercial installer. Do not disable operating-system security protections to install a preview.
 
