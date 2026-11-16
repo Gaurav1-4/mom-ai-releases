@@ -8,6 +8,8 @@ Public installer catalog and release notes for MOM-AI. Application source is mai
 
 [Download both installers and SHA-256 checksums](https://github.com/Gaurav1-4/mom-ai-releases/releases/tag/v0.4.0).
 
+Sharing with friends? Start with the [friend testing and installation guide](FRIENDS-SETUP.md). No App Store listing or Apple Developer account is required for users.
+
 - Mac: `MOM-AI-0.4.0-arm64.dmg` — ad-hoc signed, not notarized.
 - Windows: `MOM-AI-0.4.0-win-x64.exe` — unsigned per-user installer.
 - Windows native installation, app/UI, reinstall/uninstall, private workspace permissions and full local Large v3 inference passed CI. The shared Linux recorder passed synthetic audio/video and automatic stopping checks.
