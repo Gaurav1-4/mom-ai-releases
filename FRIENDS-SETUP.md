@@ -1,13 +1,13 @@
 # Try MOM-AI with friends
 
-MOM-AI 0.5.0 is a testing preview for **Apple silicon Macs** and **Windows x64 PCs**. The source stays private; the installers are public. Users do not need an Apple Developer account or an App Store listing to install it.
+MOM-AI 0.5.1 is a testing preview for **Apple silicon Macs** and **Windows x64 PCs**. The source stays private; the installers are public. Users do not need an Apple Developer account or an App Store listing to install it.
 
 ## Download and install
 
-Open the [MOM-AI 0.5.0 release](https://github.com/Gaurav1-4/mom-ai-releases/releases/tag/v0.5.0), read its notes, and choose your installer. The release includes `SHA256SUMS.txt` for checking downloads.
+Open the [MOM-AI 0.5.1 release](https://github.com/Gaurav1-4/mom-ai-releases/releases/tag/v0.5.1), read its notes, and choose your installer. The release includes `SHA256SUMS.txt` for checking downloads.
 
-- **Mac:** Download `MOM-AI-0.5.0-arm64.dmg`, open it, and drag MOM-AI into Applications. Launch it from Applications. This preview is ad-hoc signed and not Apple-notarized. If macOS reports an unidentified developer, and you trust the publisher and verified download, Apple's per-app **System Settings → Privacy & Security → Open Anyway** option may be available after the first launch attempt. Follow [Apple's instructions](https://support.apple.com/en-us/102445); managed Macs can restrict this option. A malware or damaged-app warning needs investigation—contact support instead of overriding it.
-- **Windows:** Download `MOM-AI-0.5.0-win-x64.exe` and run the per-user installer. This preview is unsigned and can show a publisher warning. If Windows blocks installation, send support the exact error. Do not disable Defender or other system protections.
+- **Mac:** Download `MOM-AI-0.5.1-arm64.dmg`, open it, and drag MOM-AI into Applications. Launch it from Applications. This preview is ad-hoc signed and not Apple-notarized. If macOS reports an unidentified developer, and you trust the publisher and verified download, Apple's per-app **System Settings → Privacy & Security → Open Anyway** option may be available after the first launch attempt. Follow [Apple's instructions](https://support.apple.com/en-us/102445); managed Macs can restrict this option. A malware or damaged-app warning needs investigation—contact support instead of overriding it.
+- **Windows:** Download `MOM-AI-0.5.1-win-x64.exe` and run the per-user installer. This preview is unsigned and can show a publisher warning. If Windows blocks installation, send support the exact error. Do not disable Defender or other system protections.
 
 ## Prepare the local meeting worker
 
@@ -43,6 +43,6 @@ Real Windows Google Meet/WSL2 end-to-end acceptance and long-session testing rem
 
 ## Updates and support
 
-Version 0.5.0 uses release notifications with manual installer updates. The signed in-app updater has been prepared in the private source but is not enabled in this public preview. Finish meetings and processing before installing an update.
+From version 0.5.1, choose **Update now** in the popup to download, verify and open the correct installer inside MOM-AI. On Mac, replace the app in Applications and reopen it; on Windows, finish the installer. Earlier versions need one initial upgrade from the release page to get this popup. Finish meetings and processing before installation. Fully automatic signed replacement is a separate mode and is not enabled in this preview.
 
 Contact **support@gahahq.tech** with your OS, app version and error text. Never post passwords, API keys, authorization links or private meeting recordings in public issues.
