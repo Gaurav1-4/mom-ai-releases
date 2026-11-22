@@ -1,17 +1,17 @@
 # Try MOM-AI with friends
 
-MOM-AI 0.5.1 is a testing preview for **Apple silicon Macs** and **Windows x64 PCs**. The source stays private; the installers are public. Users do not need an Apple Developer account or an App Store listing to install it.
+MOM-AI 0.5.2 is a testing preview for **Apple silicon Macs** and **Windows x64 PCs**. The source stays private; the installers are public. Users do not need an Apple Developer account or an App Store listing to install it.
 
 ## Download and install
 
-Open the [MOM-AI 0.5.1 release](https://github.com/Gaurav1-4/mom-ai-releases/releases/tag/v0.5.1), read its notes, and choose your installer. The release includes `SHA256SUMS.txt` for checking downloads.
+Open the [MOM-AI 0.5.2 release](https://github.com/Gaurav1-4/mom-ai-releases/releases/tag/v0.5.2), read its notes, and choose your installer. The release includes `SHA256SUMS.txt` for checking downloads.
 
-- **Mac:** Download `MOM-AI-0.5.1-arm64.dmg`, open it, and drag MOM-AI into Applications. Launch it from Applications. This preview is ad-hoc signed and not Apple-notarized. If macOS reports an unidentified developer, and you trust the publisher and verified download, Apple's per-app **System Settings → Privacy & Security → Open Anyway** option may be available after the first launch attempt. Follow [Apple's instructions](https://support.apple.com/en-us/102445); managed Macs can restrict this option. A malware or damaged-app warning needs investigation—contact support instead of overriding it.
-- **Windows:** Download `MOM-AI-0.5.1-win-x64.exe` and run the per-user installer. This preview is unsigned and can show a publisher warning. If Windows blocks installation, send support the exact error. Do not disable Defender or other system protections.
+- **Mac:** Download `MOM-AI-0.5.2-arm64.dmg`, open it, and drag MOM-AI into Applications. Launch it from Applications. This preview is ad-hoc signed and not Apple-notarized. If macOS reports an unidentified developer, and you trust the publisher and verified download, Apple's per-app **System Settings → Privacy & Security → Open Anyway** option may be available after the first launch attempt. Follow [Apple's instructions](https://support.apple.com/en-us/102445); managed Macs can restrict this option. A malware or damaged-app warning needs investigation—contact support instead of overriding it.
+- **Windows:** Download `MOM-AI-0.5.2-win-x64.exe` and run the per-user installer. This preview is unsigned and can show a publisher warning. If Windows blocks installation, send support the exact error. Do not disable Defender or other system protections.
 
 ## Prepare the local meeting worker
 
-1. Open MOM-AI and choose **Set up this computer**. The app prepares local Python/audio tools, Docker, the recorder and Whisper Large v3. It reuses compatible components that are already installed.
+1. Open MOM-AI and choose **Set up this computer**. The app prepares local Python/audio tools, Docker, the recorder and Whisper Large v3. It reuses compatible components that are already installed. The progress bar shows the current step and measured download percentage/size. Recorder preparation and verification show an animated bar; no overall completion percentage is guessed.
 2. Complete Docker's installer, licence and OS permission prompts. On Windows, use Linux containers with WSL2 and restart if requested. Keep MOM-AI open to continue automatically; after a restart, reopen it and choose **Resume setup**.
 3. When setup is ready, choose **Connect Google and Gemini**. Allow several GB of disk space and download time. Transcription speed and memory use depend on your machine.
 

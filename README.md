@@ -4,15 +4,16 @@ Public installer catalog and release notes for MOM-AI. Application source is mai
 
 ## Current availability
 
-**MOM-AI 0.5.1 is a testing preview for Apple silicon Mac and Windows x64.**
+**MOM-AI 0.5.2 is a testing preview for Apple silicon Mac and Windows x64.**
 
-[Download both installers and SHA-256 checksums](https://github.com/Gaurav1-4/mom-ai-releases/releases/tag/v0.5.1).
+[Download both installers and SHA-256 checksums](https://github.com/Gaurav1-4/mom-ai-releases/releases/tag/v0.5.2).
 
 Sharing with friends? Start with the [friend testing and installation guide](FRIENDS-SETUP.md). No App Store listing or Apple Developer account is required for users.
 
-- Mac: `MOM-AI-0.5.1-arm64.dmg` — ad-hoc signed, not notarized.
-- Windows: `MOM-AI-0.5.1-win-x64.exe` — unsigned per-user installer.
+- Mac: `MOM-AI-0.5.2-arm64.dmg` — ad-hoc signed, not notarized.
+- Windows: `MOM-AI-0.5.2-win-x64.exe` — unsigned per-user installer.
 - New: the compact update popup offers **Update now**, **Release notes** and **Later**. Update now downloads/verifies and opens the system installer without a browser download.
+- New: setup shows the current step and measured download percentage/size, including Whisper. Recorder preparation and verification stay visible with an animated bar.
 - One resumable setup flow prepares Docker, local Python/audio tools, the recorder and Whisper. Docker may require OS permissions or WSL setup/restart.
 - New: full timestamped transcript text export and a detailed MOM PDF with discussion, decisions, action items and open questions. New text/PDF files are included in automatic Drive uploads.
 - Current Mac and Windows CI passed private tool installation, actual audio conversion, setup/retry UI, transcript/PDF downloads and installer builds. Previous Windows installation/reinstall/uninstall and full local Large v3 inference checks passed; the shared recorder passed synthetic audio/video and automatic stopping checks.
