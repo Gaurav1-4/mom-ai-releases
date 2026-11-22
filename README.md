@@ -4,15 +4,17 @@ Public installer catalog and release notes for MOM-AI. Application source is mai
 
 ## Current availability
 
-**MOM-AI 0.4.0 is a testing preview for Apple silicon Mac and Windows x64.**
+**MOM-AI 0.5.0 is a testing preview for Apple silicon Mac and Windows x64.**
 
-[Download both installers and SHA-256 checksums](https://github.com/Gaurav1-4/mom-ai-releases/releases/tag/v0.4.0).
+[Download both installers and SHA-256 checksums](https://github.com/Gaurav1-4/mom-ai-releases/releases/tag/v0.5.0).
 
 Sharing with friends? Start with the [friend testing and installation guide](FRIENDS-SETUP.md). No App Store listing or Apple Developer account is required for users.
 
-- Mac: `MOM-AI-0.4.0-arm64.dmg` — ad-hoc signed, not notarized.
-- Windows: `MOM-AI-0.4.0-win-x64.exe` — unsigned per-user installer.
-- Windows native installation, app/UI, reinstall/uninstall, private workspace permissions and full local Large v3 inference passed CI. The shared Linux recorder passed synthetic audio/video and automatic stopping checks.
+- Mac: `MOM-AI-0.5.0-arm64.dmg` — ad-hoc signed, not notarized.
+- Windows: `MOM-AI-0.5.0-win-x64.exe` — unsigned per-user installer.
+- New: one resumable setup flow prepares Docker, local Python/audio tools, the recorder and Whisper. Docker may require OS permissions or WSL setup/restart.
+- New: full timestamped transcript text export and a detailed MOM PDF with discussion, decisions, action items and open questions. New text/PDF files are included in automatic Drive uploads.
+- Current Mac and Windows CI passed private tool installation, actual audio conversion, setup/retry UI, transcript/PDF downloads and installer builds. Previous Windows installation/reinstall/uninstall and full local Large v3 inference checks passed; the shared recorder passed synthetic audio/video and automatic stopping checks.
 - Real Windows Google Meet/WSL2 end-to-end acceptance, long-session testing and commercial signing remain pending. Intel Mac and Windows ARM64 are not validated targets.
 
 Each published release will state its supported platform, preview/production status, signing/notarization status, prerequisites and known limitations. Do not assume a personal preview is a signed/notarized commercial installer. Do not disable operating-system security protections to install a preview.
